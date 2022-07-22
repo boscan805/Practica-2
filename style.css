@@ -1,0 +1,25 @@
+.texto-grande {
+    font-size: 80px;
+    background: linear-gradient(to right, #0062ff, #3ba144, #0a9146 ,rgb(65, 187, 86));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+   
+
+    .zoom {
+        transition:transform .5s;
+    }
+    .zoom:hover {
+        transform: scale(1.5);
+    }
