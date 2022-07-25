@@ -23,3 +23,378 @@
     .zoom:hover {
         transform: scale(1.5);
     }
+
+    .div-header {
+        width:100%; background-color:rgba(0, 0, 0, 0.856); height: 650px;
+    }
+
+    .div-del-header {
+
+        width:50%; float:right; margin-right: 50px; margin-top:5% ;
+    }
+
+    .div-grid {
+        display: grid; grid-auto-flow:column; grid-column-gap: 0px; margin-left: 350px; margin-top:20px;
+    }
+
+    .div-3-row {
+
+        display:grid; grid-auto-flow: column; grid-column-gap:0px;margin-top:20px; margin-left: 291px;
+    }
+
+    .div-40 {
+        width: 40;
+    }
+
+    .div-20 {
+        width: 20;
+    }
+
+    .gran-sonido {
+        font-family:Verdana, Geneva, Tahoma, sans-serif; color:#0062ff; font-weight: bolder; display:inline
+    }
+
+    .garantia {
+        font-family:Verdana, Geneva, Tahoma, sans-serif; color:#0062ff; font-weight: bolder; display:inline; padding-left:30px;
+    }
+
+    .bateria {
+        font-family:Verdana, Geneva, Tahoma, sans-serif; color:#0062ff; font-weight: bolder; display:inline; padding-right: 100px;
+    }
+
+    .div-lorem {
+        display:grid; grid-auto-flow: column; grid-column-gap:0px;margin-top:20px; margin-left: 291px; text-align: center;
+    }
+
+    .lorem1 {
+        font-size: 15px; width: 30%; padding-left: 30px;
+    }
+
+    .lorem2 {
+
+        font-size: 15px; width:30% ;
+    }
+
+    .div-azul {
+        width: 50%; height:400px; background-color: #037BC0;  float:left; margin-top:60px ;
+    }
+
+    .sobre-los-tech{
+
+        color: white; font-size:40px; padding-left:100px; padding-top: 100px;
+    }
+
+    .lorem-grande {
+        color:white; font-weight:lighter; text-align:justify; padding-left:100px; padding-right:300px; line-height:30px; padding-top: 25px;
+    }
+
+    .imagen-lorem {
+        width: 50%; height:400px;  float:right; margin-top:60px ;
+    }
+
+    #div-audi-azul{ 
+        background-color:#0062ff; float:right; width:600px; height:400px; padding-right:0px; border-radius:10% ;
+    }
+
+    #tech-z {
+        color:#ffffff; font-size:35px; display:inline; padding-left:60px; float:left; padding-top: 130px; font-weight: bold;
+    }
+
+    #imagen-z {
+        height:300px; float:right; padding-right:25px; padding-top:60px;
+    }
+
+
+    .imagen-final{ padding-top: 20px; width:20%; float:left;}
+
+    .email {
+        width: 53%; height:496px; background-color: #037BC0;  float:right; margin-top:19px;
+    }
+
+    @media only screen and (max-width: 360px) 
+    {
+       .div-header {
+        width: 200%;
+       }
+       
+       .img-header {
+        height: 200px;
+       }
+
+       .div-3-row {
+        margin-left: 150px;
+        column-gap: 35px;
+       }
+
+       .gran-sonido {
+        padding-right: 30px;
+       }
+
+       .garantia {
+        padding-left: 0px;
+       }
+
+       .div-lorem {
+        margin-left: 120px;
+        column-gap: 77px;
+       }
+
+       .bateria {
+        padding-right: 40px;
+       }
+
+       .div-grid {
+        margin-left: 150px;
+        column-gap: 80px;
+       }
+
+       .div-azul {
+        width: 200%;
+       }
+
+       .imagen-lorem {
+        float:none;
+        width: 200%;
+        margin-top: 0px;
+       }
+       .texto-grande {
+        width: 186%;
+       }
+
+       #div-audi-azul {
+        float:none;
+        width: 600px;
+        padding-left: 20px;
+       }
+
+       .zoom {
+        margin-top:50px;
+       }
+
+       .imagen-final{
+        float:none;
+        width: 100%;
+       }
+
+       .email {
+        float:none;
+        width: 200%;
+       }
+    }
+
+
+    @media only screen and (max-width: 412px) 
+    {
+       .div-header {
+        width: 200%;
+       }
+       
+       .img-header {
+        height: 200px;
+       }
+
+       .div-3-row {
+        margin-left: 150px;
+        column-gap: 35px;
+       }
+
+       .gran-sonido {
+        padding-right: 30px;
+       }
+
+       .garantia {
+        padding-left: 0px;
+       }
+
+       .div-lorem {
+        margin-left: 120px;
+        column-gap: 77px;
+       }
+
+       .bateria {
+        padding-right: 40px;
+       }
+
+       .div-grid {
+        margin-left: 150px;
+        column-gap: 80px;
+       }
+
+       .div-azul {
+        width: 200%;
+       }
+
+       .imagen-lorem {
+        float:none;
+        width: 200%;
+        margin-top: 0px;
+       }
+       .texto-grande {
+        width: 186%;
+       }
+
+       #div-audi-azul {
+        float:none;
+        width: 600px;
+        padding-left: 20px;
+       }
+
+       .zoom {
+        margin-top:50px;
+       }
+
+       .imagen-final{
+        float:none;
+        width: 100%;
+       }
+
+       .email {
+        float:none;
+        width: 200%;
+       }
+    }
+
+
+    @media only screen and (max-width: 320px) 
+    {
+       .div-header {
+        width: 200%;
+       }
+       
+       .img-header {
+        height: 200px;
+       }
+
+       .div-3-row {
+        margin-left: 150px;
+        column-gap: 35px;
+       }
+
+       .gran-sonido {
+        padding-right: 30px;
+       }
+
+       .garantia {
+        padding-left: 0px;
+       }
+
+       .div-lorem {
+        margin-left: 120px;
+        column-gap: 77px;
+       }
+
+       .bateria {
+        padding-right: 40px;
+       }
+
+       .div-grid {
+        margin-left: 150px;
+        column-gap: 80px;
+       }
+
+       .div-azul {
+        width: 200%;
+       }
+
+       .imagen-lorem {
+        float:none;
+        width: 200%;
+        margin-top: 0px;
+       }
+       .texto-grande {
+        width: 186%;
+       }
+
+       #div-audi-azul {
+        float:none;
+        width: 600px;
+        padding-left: 20px;
+       }
+
+       .zoom {
+        margin-top:50px;
+       }
+
+       .imagen-final{
+        float:none;
+        width: 100%;
+       }
+
+       .email {
+        float:none;
+        width: 200%;
+       }
+    }
+
+    
+    @media only screen and (max-width: 712px) 
+    {
+       .div-header {
+        width: 200%;
+       }
+       
+       .img-header {
+        height: 200px;
+       }
+
+       .div-3-row {
+        margin-left: 150px;
+        column-gap: 35px;
+       }
+
+       .gran-sonido {
+        padding-right: 30px;
+       }
+
+       .garantia {
+        padding-left: 0px;
+       }
+
+       .div-lorem {
+        margin-left: 120px;
+        column-gap: 77px;
+       }
+
+       .bateria {
+        padding-right: 40px;
+       }
+
+       .div-grid {
+        margin-left: 150px;
+        column-gap: 80px;
+       }
+
+       .div-azul {
+        width: 200%;
+       }
+
+       .imagen-lorem {
+        float:none;
+        width: 200%;
+        margin-top: 0px;
+       }
+       .texto-grande {
+        width: 186%;
+       }
+
+       #div-audi-azul {
+        float:none;
+        width: 600px;
+        padding-left: 20px;
+       }
+
+       .zoom {
+        margin-top:50px;
+       }
+
+       .imagen-final{
+        float:none;
+        width: 100%;
+       }
+
+       .email {
+        float:none;
+        width: 200%;
+       }
+    }
+
